@@ -1,0 +1,1157 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Love Wings Cafe & Restro — Where Every Meal Becomes A Memory. Pure vegetarian dining, couple lounge & event celebrations in a luxurious atmosphere."
+    />
+    <meta
+      name="keywords"
+      content="Love Wings Cafe, vegetarian restaurant, couple lounge, event hall, fine dining, cafe"
+    />
+    <meta property="og:title" content="Love Wings Cafe & Restro" />
+    <meta
+      property="og:description"
+      content="Where Every Meal Becomes A Memory. Pure Vegetarian • Couple Lounge • Event Celebrations"
+    />
+    <meta property="og:type" content="restaurant" />
+    <title>Love Wings Cafe & Restro — Where Every Meal Becomes A Memory</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===================== NAVBAR ===================== -->
+    <header class="navbar" id="navbar" role="banner">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo" aria-label="Love Wings Cafe Home">
+          <span class="logo-icon" aria-hidden="true">♡</span>
+          <span class="logo-text">Love Wings</span>
+        </a>
+
+        <nav class="nav-links" role="navigation" aria-label="Main navigation">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#experiences" class="nav-link">Experiences</a>
+          <a href="#menu" class="nav-link">Menu</a>
+          <a href="#gallery" class="nav-link">Gallery</a>
+          <a href="#reviews" class="nav-link">Reviews</a>
+          <a href="#reservation" class="nav-link nav-cta">Reserve a Table</a>
+        </nav>
+
+        <button
+          class="nav-hamburger"
+          id="hamburgerBtn"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        class="mobile-menu"
+        id="mobileMenu"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Navigation menu"
+      >
+        <nav class="mobile-nav" aria-label="Mobile navigation">
+          <a href="#about" class="mobile-link">About</a>
+          <a href="#experiences" class="mobile-link">Experiences</a>
+          <a href="#menu" class="mobile-link">Menu</a>
+          <a href="#gallery" class="mobile-link">Gallery</a>
+          <a href="#reviews" class="mobile-link">Reviews</a>
+          <a href="#reservation" class="mobile-link">Reservation</a>
+          <a href="#contact" class="mobile-link">Contact</a>
+        </nav>
+        <div class="mobile-footer-info">
+          <p>10AM – 10PM • All Days</p>
+          <a href="tel:+911234567890">+91 12345 67890</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero" aria-label="Welcome to Love Wings Cafe">
+      <div class="hero-media">
+        <div class="hero-video-wrap">
+          <video
+            class="hero-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            poster="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1920&q=80"
+            aria-hidden="true"
+          >
+            <source src="" type="video/mp4" />
+          </video>
+          <img
+            class="hero-fallback"
+            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1920&q=80"
+            alt="Love Wings Cafe ambiance — warm, elegant dining space"
+            loading="eager"
+          />
+        </div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow" data-reveal>
+          Mathura's Premier Dining Destination
+        </p>
+        <h1 class="hero-headline" data-reveal>
+          Where Every Meal<br />
+          <em>Becomes A Memory</em>
+        </h1>
+        <p class="hero-sub" data-reveal>
+          Pure Vegetarian &nbsp;·&nbsp; Couple Lounge &nbsp;·&nbsp; Event
+          Celebrations
+        </p>
+
+        <div class="hero-actions" data-reveal>
+          <a href="#reservation" class="btn btn-primary">Book a Table</a>
+          <a href="#menu" class="btn btn-ghost">Explore Menu</a>
+        </div>
+      </div>
+
+      <!-- Floating Stats -->
+      <div class="hero-stats" aria-label="Restaurant highlights">
+        <div class="stat-pill" data-reveal>
+          <span class="stat-val" data-count="536">0</span
+          ><span class="stat-unit">+</span>
+          <span class="stat-label">Reviews</span>
+        </div>
+        <div class="stat-pill" data-reveal>
+          <span class="stat-val">4.2</span><span class="stat-unit">★</span>
+          <span class="stat-label">Rating</span>
+        </div>
+        <div class="stat-pill" data-reveal>
+          <span class="stat-val">100%</span>
+          <span class="stat-label">Pure Veg</span>
+        </div>
+        <div class="stat-pill" data-reveal>
+          <span class="stat-val">10AM</span><span class="stat-unit">–10PM</span>
+          <span class="stat-label">Open Daily</span>
+        </div>
+      </div>
+
+      <a href="#about" class="hero-scroll" aria-label="Scroll down">
+        <span class="scroll-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container split-layout">
+        <div class="split-image" data-parallax>
+          <img
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=80"
+            alt="Elegant table setting at Love Wings Cafe with warm candlelight"
+            loading="lazy"
+          />
+          <div class="image-badge">Est. 2018</div>
+        </div>
+        <div class="split-text">
+          <p class="section-eyebrow" data-reveal>Our Story</p>
+          <h2 class="section-heading" id="about-heading" data-reveal>
+            Crafted with Love,<br /><em>Served with Soul</em>
+          </h2>
+          <p class="body-text" data-reveal>
+            Love Wings began as a dream — a place where couples could escape the
+            noise of the world, where families could celebrate life's precious
+            moments, and where every meal would linger long in memory.
+          </p>
+          <p class="body-text" data-reveal>
+            Our kitchen is devoted to the art of pure vegetarian cuisine — not
+            as a restriction, but as a celebration. Every dish is prepared with
+            seasonal ingredients, slow-cooked care, and the quiet confidence of
+            a chef who believes that vegetables deserve the same reverence as
+            any luxury ingredient.
+          </p>
+          <div class="about-values" data-reveal>
+            <div class="value-item">
+              <span class="value-icon" aria-hidden="true">🌿</span>
+              <span>100% Pure Veg</span>
+            </div>
+            <div class="value-item">
+              <span class="value-icon" aria-hidden="true">🏡</span>
+              <span>Private Cabins</span>
+            </div>
+            <div class="value-item">
+              <span class="value-icon" aria-hidden="true">🎉</span>
+              <span>Event Ready</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCES ===================== -->
+    <section
+      class="experiences section section-alt"
+      id="experiences"
+      aria-labelledby="exp-heading"
+    >
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow" data-reveal>Curated For You</p>
+          <h2 class="section-heading" id="exp-heading" data-reveal>
+            Signature Experiences
+          </h2>
+          <p class="section-sub" data-reveal>
+            Three worlds, one roof. Choose the experience that fits your
+            occasion.
+          </p>
+        </div>
+        <div class="exp-grid">
+          <article
+            class="exp-card"
+            data-reveal
+            aria-label="Couple Lounge experience"
+          >
+            <div class="exp-icon" aria-hidden="true">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  d="M24 42C24 42 6 30 6 18C6 12.477 10.477 8 16 8C19.18 8 22 9.6 24 12C26 9.6 28.82 8 32 8C37.523 8 42 12.477 42 18C42 30 24 42 24 42Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 class="exp-title">Couple Lounge</h3>
+            <p class="exp-desc">
+              Intimate corner booths wrapped in soft light and curated music —
+              the perfect cocoon for two. Complimentary rose petal setup on
+              request.
+            </p>
+            <a href="#reservation" class="exp-link"
+              >Reserve a Booth <span aria-hidden="true">→</span></a
+            >
+            <div class="exp-bg" aria-hidden="true"></div>
+          </article>
+
+          <article
+            class="exp-card exp-card--featured"
+            data-reveal
+            aria-label="Private Cabins experience"
+          >
+            <div class="exp-icon" aria-hidden="true">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <rect
+                  x="6"
+                  y="20"
+                  width="36"
+                  height="22"
+                  rx="2"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M4 20L24 6L44 20"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <rect
+                  x="18"
+                  y="28"
+                  width="12"
+                  height="14"
+                  rx="1"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <h3 class="exp-title">Private Cabins</h3>
+            <p class="exp-desc">
+              Fully enclosed, air-conditioned cabins with personalized decor.
+              Complete privacy for your most cherished gatherings —
+              anniversaries, proposals, quiet dinners.
+            </p>
+            <a href="#reservation" class="exp-link"
+              >Book a Cabin <span aria-hidden="true">→</span></a
+            >
+            <div class="exp-bg" aria-hidden="true"></div>
+          </article>
+
+          <article
+            class="exp-card"
+            data-reveal
+            aria-label="Event Hall experience"
+          >
+            <div class="exp-icon" aria-hidden="true">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <circle
+                  cx="24"
+                  cy="20"
+                  r="8"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M8 40C8 33.373 15.163 28 24 28C32.837 28 40 33.373 40 40"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M32 10L34 6M40 18L44 18M38 12L41 9"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3 class="exp-title">Event Hall</h3>
+            <p class="exp-desc">
+              A grand banquet space for birthdays, corporate lunches, and
+              milestone celebrations. Full event management, live counters, and
+              custom menus available.
+            </p>
+            <a href="#contact" class="exp-link"
+              >Plan Your Event <span aria-hidden="true">→</span></a
+            >
+            <div class="exp-bg" aria-hidden="true"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MENU ===================== -->
+    <section class="menu section" id="menu" aria-labelledby="menu-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow" data-reveal>From Our Kitchen</p>
+          <h2 class="section-heading" id="menu-heading" data-reveal>
+            Chef's Recommendations
+          </h2>
+          <p class="section-sub" data-reveal>
+            Handpicked by our chef — each dish a story of flavour, technique,
+            and love.
+          </p>
+        </div>
+
+        <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+          <button
+            class="menu-tab active"
+            role="tab"
+            aria-selected="true"
+            data-category="all"
+          >
+            All
+          </button>
+          <button
+            class="menu-tab"
+            role="tab"
+            aria-selected="false"
+            data-category="starters"
+          >
+            Starters
+          </button>
+          <button
+            class="menu-tab"
+            role="tab"
+            aria-selected="false"
+            data-category="mains"
+          >
+            Mains
+          </button>
+          <button
+            class="menu-tab"
+            role="tab"
+            aria-selected="false"
+            data-category="desserts"
+          >
+            Desserts
+          </button>
+          <button
+            class="menu-tab"
+            role="tab"
+            aria-selected="false"
+            data-category="drinks"
+          >
+            Drinks
+          </button>
+        </div>
+
+        <div class="menu-grid" id="menuGrid" role="tabpanel">
+          <!-- Cards injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section
+      class="gallery section section-alt"
+      id="gallery"
+      aria-labelledby="gallery-heading"
+    >
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow" data-reveal>A Glimpse Inside</p>
+          <h2 class="section-heading" id="gallery-heading" data-reveal>
+            Life at Love Wings
+          </h2>
+        </div>
+        <div
+          class="gallery-grid"
+          id="galleryGrid"
+          role="list"
+          aria-label="Restaurant gallery"
+        ></div>
+      </div>
+
+      <!-- Lightbox -->
+      <div
+        class="lightbox"
+        id="lightbox"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Image viewer"
+        hidden
+      >
+        <button class="lb-close" id="lbClose" aria-label="Close image viewer">
+          ✕
+        </button>
+        <button class="lb-prev" id="lbPrev" aria-label="Previous image">
+          ‹
+        </button>
+        <button class="lb-next" id="lbNext" aria-label="Next image">›</button>
+        <div class="lb-img-wrap">
+          <img class="lb-img" id="lbImg" src="" alt="" />
+        </div>
+        <div class="lb-counter" id="lbCounter" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ===================== REVIEWS ===================== -->
+    <section
+      class="reviews section"
+      id="reviews"
+      aria-labelledby="reviews-heading"
+    >
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow" data-reveal>What People Say</p>
+          <h2 class="section-heading" id="reviews-heading" data-reveal>
+            536+ Happy Memories
+          </h2>
+        </div>
+        <div class="reviews-track-wrap">
+          <div
+            class="reviews-track"
+            id="reviewsTrack"
+            role="list"
+            aria-label="Customer reviews"
+          ></div>
+        </div>
+        <div
+          class="reviews-dots"
+          id="reviewsDots"
+          role="tablist"
+          aria-label="Review navigation"
+        ></div>
+      </div>
+    </section>
+
+    <!-- ===================== RESERVATION ===================== -->
+    <section
+      class="reservation section section-alt"
+      id="reservation"
+      aria-labelledby="res-heading"
+    >
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow" data-reveal>Plan Your Visit</p>
+          <h2 class="section-heading" id="res-heading" data-reveal>
+            Reserve Your Table
+          </h2>
+          <p class="section-sub" data-reveal>
+            A few simple steps to secure your perfect evening.
+          </p>
+        </div>
+
+        <div class="wizard-wrap" data-reveal>
+          <!-- Progress -->
+          <div
+            class="wizard-progress"
+            role="progressbar"
+            aria-valuemin="1"
+            aria-valuemax="4"
+            aria-valuenow="1"
+            aria-label="Reservation step"
+          >
+            <div class="progress-bar" id="progressBar"></div>
+            <div class="progress-steps">
+              <div class="progress-step active" data-step="1">
+                <span class="step-num" aria-hidden="true">1</span>
+                <span class="step-label">Experience</span>
+              </div>
+              <div class="progress-step" data-step="2">
+                <span class="step-num" aria-hidden="true">2</span>
+                <span class="step-label">Date & Time</span>
+              </div>
+              <div class="progress-step" data-step="3">
+                <span class="step-num" aria-hidden="true">3</span>
+                <span class="step-label">Guests</span>
+              </div>
+              <div class="progress-step" data-step="4">
+                <span class="step-num" aria-hidden="true">4</span>
+                <span class="step-label">Your Details</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Steps -->
+          <div class="wizard-body">
+            <!-- Step 1 -->
+            <div
+              class="wizard-step active"
+              id="step1"
+              role="group"
+              aria-labelledby="step1-heading"
+            >
+              <h3 class="step-heading" id="step1-heading">
+                Choose Your Experience
+              </h3>
+              <div class="step-choices">
+                <label class="choice-card">
+                  <input
+                    type="radio"
+                    name="experience"
+                    value="couple-lounge"
+                    aria-label="Couple Lounge"
+                  />
+                  <span class="choice-content">
+                    <span class="choice-icon" aria-hidden="true">♡</span>
+                    <span class="choice-title">Couple Lounge</span>
+                    <span class="choice-sub">Intimate booth for two</span>
+                  </span>
+                </label>
+                <label class="choice-card">
+                  <input
+                    type="radio"
+                    name="experience"
+                    value="private-cabin"
+                    aria-label="Private Cabin"
+                  />
+                  <span class="choice-content">
+                    <span class="choice-icon" aria-hidden="true">🏠</span>
+                    <span class="choice-title">Private Cabin</span>
+                    <span class="choice-sub">Fully enclosed privacy</span>
+                  </span>
+                </label>
+                <label class="choice-card">
+                  <input
+                    type="radio"
+                    name="experience"
+                    value="main-hall"
+                    aria-label="Main Hall"
+                  />
+                  <span class="choice-content">
+                    <span class="choice-icon" aria-hidden="true">🍽</span>
+                    <span class="choice-title">Main Hall</span>
+                    <span class="choice-sub">Open dining area</span>
+                  </span>
+                </label>
+                <label class="choice-card">
+                  <input
+                    type="radio"
+                    name="experience"
+                    value="event-hall"
+                    aria-label="Event Hall"
+                  />
+                  <span class="choice-content">
+                    <span class="choice-icon" aria-hidden="true">🎉</span>
+                    <span class="choice-title">Event Hall</span>
+                    <span class="choice-sub">For 20+ guests</span>
+                  </span>
+                </label>
+              </div>
+              <p class="step-error" id="error1" role="alert"></p>
+              <div class="step-actions">
+                <button class="btn btn-primary" onclick="wizardNext(1)">
+                  Continue <span aria-hidden="true">→</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div
+              class="wizard-step"
+              id="step2"
+              role="group"
+              aria-labelledby="step2-heading"
+            >
+              <h3 class="step-heading" id="step2-heading">
+                Select Date & Time
+              </h3>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="resDate" class="form-label">Preferred Date</label>
+                  <input
+                    type="date"
+                    id="resDate"
+                    class="form-input"
+                    aria-required="true"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="resTime" class="form-label">Preferred Time</label>
+                  <select id="resTime" class="form-input" aria-required="true">
+                    <option value="">Select time</option>
+                    <option>10:00 AM</option>
+                    <option>11:00 AM</option>
+                    <option>12:00 PM</option>
+                    <option>01:00 PM</option>
+                    <option>02:00 PM</option>
+                    <option>03:00 PM</option>
+                    <option>05:00 PM</option>
+                    <option>06:00 PM</option>
+                    <option>07:00 PM</option>
+                    <option>08:00 PM</option>
+                    <option>09:00 PM</option>
+                  </select>
+                </div>
+              </div>
+              <p class="step-error" id="error2" role="alert"></p>
+              <div class="step-actions">
+                <button class="btn btn-ghost" onclick="wizardPrev(2)">
+                  ← Back
+                </button>
+                <button class="btn btn-primary" onclick="wizardNext(2)">
+                  Continue →
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div
+              class="wizard-step"
+              id="step3"
+              role="group"
+              aria-labelledby="step3-heading"
+            >
+              <h3 class="step-heading" id="step3-heading">How Many Guests?</h3>
+              <div class="guest-counter">
+                <button
+                  class="counter-btn"
+                  id="guestMinus"
+                  aria-label="Decrease guests"
+                >
+                  −
+                </button>
+                <span class="counter-val" id="guestCount" aria-live="polite"
+                  >2</span
+                >
+                <button
+                  class="counter-btn"
+                  id="guestPlus"
+                  aria-label="Increase guests"
+                >
+                  +
+                </button>
+              </div>
+              <p class="counter-label">Guests</p>
+              <div class="form-group" style="margin-top: 2rem">
+                <label for="occasion" class="form-label"
+                  >Occasion (optional)</label
+                >
+                <select id="occasion" class="form-input">
+                  <option value="">Select occasion</option>
+                  <option>Birthday</option>
+                  <option>Anniversary</option>
+                  <option>Proposal</option>
+                  <option>Corporate Lunch</option>
+                  <option>Family Gathering</option>
+                  <option>Date Night</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <p class="step-error" id="error3" role="alert"></p>
+              <div class="step-actions">
+                <button class="btn btn-ghost" onclick="wizardPrev(3)">
+                  ← Back
+                </button>
+                <button class="btn btn-primary" onclick="wizardNext(3)">
+                  Continue →
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div
+              class="wizard-step"
+              id="step4"
+              role="group"
+              aria-labelledby="step4-heading"
+            >
+              <h3 class="step-heading" id="step4-heading">
+                Your Contact Details
+              </h3>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="resName" class="form-label">Full Name</label>
+                  <input
+                    type="text"
+                    id="resName"
+                    class="form-input"
+                    placeholder="Your name"
+                    aria-required="true"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="resPhone" class="form-label">Phone Number</label>
+                  <input
+                    type="tel"
+                    id="resPhone"
+                    class="form-input"
+                    placeholder="+91 XXXXX XXXXX"
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="resEmail" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  id="resEmail"
+                  class="form-input"
+                  placeholder="your@email.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="resNotes" class="form-label"
+                  >Special Requests</label
+                >
+                <textarea
+                  id="resNotes"
+                  class="form-input"
+                  rows="3"
+                  placeholder="Allergy info, decoration requests, etc."
+                ></textarea>
+              </div>
+              <p class="step-error" id="error4" role="alert"></p>
+              <div class="step-actions">
+                <button class="btn btn-ghost" onclick="wizardPrev(4)">
+                  ← Back
+                </button>
+                <button class="btn btn-primary" onclick="submitReservation()">
+                  Confirm Reservation ✓
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 5 - Success -->
+            <div
+              class="wizard-step"
+              id="step5"
+              role="group"
+              aria-labelledby="step5-heading"
+            >
+              <div class="success-wrap">
+                <div class="success-icon" aria-hidden="true">✓</div>
+                <h3 class="step-heading" id="step5-heading">
+                  Your Table is Reserved!
+                </h3>
+                <p class="body-text">
+                  We'll send you a confirmation on WhatsApp shortly. Can't wait
+                  to see you at Love Wings.
+                </p>
+                <a
+                  href="https://wa.me/911234567890"
+                  class="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Open WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section
+      class="contact section"
+      id="contact"
+      aria-labelledby="contact-heading"
+    >
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow" data-reveal>Find Us</p>
+          <h2 class="section-heading" id="contact-heading" data-reveal>
+            Come Visit Us
+          </h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info" data-reveal>
+            <div class="contact-block">
+              <h3 class="contact-block-title">Address</h3>
+              <p>
+                Love Wings Cafe & Restro<br />Near Krishna Janmabhoomi,<br />Mathura,
+                Uttar Pradesh — 281001
+              </p>
+            </div>
+            <div class="contact-block">
+              <h3 class="contact-block-title">Hours</h3>
+              <div class="hours-list">
+                <div class="hours-row">
+                  <span>Monday – Thursday</span><span>10AM – 10PM</span>
+                </div>
+                <div class="hours-row">
+                  <span>Friday – Saturday</span><span>10AM – 11PM</span>
+                </div>
+                <div class="hours-row">
+                  <span>Sunday</span><span>9AM – 10PM</span>
+                </div>
+              </div>
+            </div>
+            <div class="contact-block">
+              <h3 class="contact-block-title">Contact</h3>
+              <p><a href="tel:+911234567890">+91 12345 67890</a></p>
+              <p><a href="mailto:hello@lovewings.in">hello@lovewings.in</a></p>
+            </div>
+            <div class="contact-block">
+              <h3 class="contact-block-title">Payments</h3>
+              <div class="payment-icons" aria-label="Accepted payment methods">
+                <span class="pay-badge" aria-label="UPI accepted">UPI</span>
+                <span class="pay-badge" aria-label="Cards accepted">Cards</span>
+                <span class="pay-badge" aria-label="Cash accepted">Cash</span>
+                <span class="pay-badge" aria-label="PhonePe accepted"
+                  >PhonePe</span
+                >
+                <span class="pay-badge" aria-label="GPay accepted">GPay</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-map" data-reveal>
+            <iframe
+              title="Love Wings Cafe location on Google Maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3548.1234567890!2d77.6733!3d27.4924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDI5JzMyLjYiTiA3N8KwNDAnMjMuOSJF!5e0!3m2!1sen!2sin!4v1234567890"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              aria-label="Google Maps showing Love Wings Cafe location in Mathura"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a
+              href="#hero"
+              class="footer-logo"
+              aria-label="Love Wings Cafe Home"
+            >
+              <span class="logo-icon" aria-hidden="true">♡</span>
+              <span class="logo-text">Love Wings</span>
+            </a>
+            <p class="footer-tagline">Where Every Meal Becomes A Memory</p>
+            <div class="footer-socials" aria-label="Social media links">
+              <a
+                href="https://instagram.com"
+                class="social-link"
+                aria-label="Love Wings on Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  aria-hidden="true"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle
+                    cx="17.5"
+                    cy="6.5"
+                    r="1"
+                    fill="currentColor"
+                    stroke="none"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://facebook.com"
+                class="social-link"
+                aria-label="Love Wings on Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://wa.me/911234567890"
+                class="social-link"
+                aria-label="Love Wings on WhatsApp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M3 21L4.5 16.5C3.6 15 3 13.1 3 11C3 6.6 6.6 3 11 3C15.4 3 19 6.6 19 11C19 15.4 15.4 19 11 19C9.3 19 7.7 18.5 6.3 17.6L3 21Z"
+                  />
+                  <path
+                    d="M8.5 9C8.5 9 8 11 10 13C12 15 14 14.5 14 14.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <p class="footer-nav-title">Explore</p>
+            <a href="#about">Our Story</a>
+            <a href="#experiences">Experiences</a>
+            <a href="#menu">Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#reservation">Reserve a Table</a>
+          </nav>
+
+          <div class="footer-hours">
+            <p class="footer-nav-title">Visit Us</p>
+            <p>Near Krishna Janmabhoomi</p>
+            <p>Mathura, UP — 281001</p>
+            <p style="margin-top: 1rem">
+              <a href="tel:+911234567890">+91 12345 67890</a>
+            </p>
+            <p>Open 10AM – 10PM Daily</p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2025 Love Wings Cafe & Restro. All rights reserved.</p>
+          <p>Made with ♡ in Mathura</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===================== FLOATING ACTIONS ===================== -->
+    <div class="floating-actions" aria-label="Quick actions">
+      <a
+        href="https://wa.me/911234567890"
+        class="fab fab-whatsapp"
+        aria-label="Chat on WhatsApp"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+          />
+        </svg>
+      </a>
+      <a href="tel:+911234567890" class="fab fab-call" aria-label="Call us">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          aria-hidden="true"
+        >
+          <path
+            d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.18 2 2 0 012 .01h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92v2z"
+          />
+        </svg>
+      </a>
+      <button
+        class="fab fab-theme"
+        id="themeToggle"
+        aria-label="Toggle dark mode"
+      >
+        <svg
+          class="icon-sun"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          aria-hidden="true"
+        >
+          <circle cx="12" cy="12" r="5" />
+          <line x1="12" y1="1" x2="12" y2="3" />
+          <line x1="12" y1="21" x2="12" y2="23" />
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+          <line x1="1" y1="12" x2="3" y2="12" />
+          <line x1="21" y1="12" x2="23" y2="12" />
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+        </svg>
+        <svg
+          class="icon-moon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          aria-hidden="true"
+        >
+          <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+        </svg>
+      </button>
+      <button
+        class="fab fab-music"
+        id="musicToggle"
+        aria-label="Toggle ambient music"
+        aria-pressed="false"
+      >
+        <svg
+          class="icon-music-on"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          aria-hidden="true"
+        >
+          <path d="M9 18V5l12-2v13" />
+          <circle cx="6" cy="18" r="3" />
+          <circle cx="18" cy="16" r="3" />
+        </svg>
+        <svg
+          class="icon-music-off"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          aria-hidden="true"
+        >
+          <path d="M9 18V5l12-2v13" />
+          <circle cx="6" cy="18" r="3" />
+          <circle cx="18" cy="16" r="3" />
+          <line x1="1" y1="1" x2="23" y2="23" />
+        </svg>
+      </button>
+      <button class="fab fab-top" id="backTop" aria-label="Back to top">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          aria-hidden="true"
+        >
+          <line x1="12" y1="19" x2="12" y2="5" />
+          <polyline points="5 12 12 5 19 12" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Music Player -->
+     <!-- <div
+      class="music-player"
+      id="musicPlayer"
+      hidden
+      role="region"
+      aria-label="Ambient music player" -->
+    >
+      <!-- <div class="music-info">
+        <div class="music-disc" aria-hidden="true"></div>
+        <div class="music-meta">
+          <span class="music-title" id="musicTitle">Café Jazz</span>
+          <span class="music-sub">Ambient • Love Wings</span>
+        </div>
+      </div>
+      <div class="music-controls">
+        <button
+          class="music-play-btn"
+          id="musicPlayBtn"
+          aria-label="Play music"
+        >
+          ▶
+        </button> -->
+        <!-- <div class="volume-wrap">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            class="vol-icon"
+            aria-hidden="true"
+          >
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+            <path d="M19.07 4.93a10 10 0 010 14.14" />
+            <path d="M15.54 8.46a5 5 0 010 7.07" />
+          </svg>
+          <input
+            type="range"
+            class="volume-slider"
+            id="volumeSlider"
+            min="0"
+            max="1"
+            step="0.05"
+            value="0.4"
+            aria-label="Volume control"
+          /> -->
+        </div>
+      </div>
+      <audio id="bgAudio" loop>
+        <source
+          src="lovesong.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
